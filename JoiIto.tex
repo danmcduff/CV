@@ -1,0 +1,241 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% Version: 20110122-4
+
+
+\documentclass[11pt,a4paper,nolmodern]{moderncv}
+
+\usepackage{JoiIto}
+
+\usepackage[english]{babel}
+\linespread{0.9}
+% for some reason, lines take up a lot of space in itemize in English...
+\newenvironment{tightitemize}
+   {\begin{itemize}
+   \setlength{\parskip}{0pt}}
+   {\end{itemize}}
+
+
+% personal data
+\title{Open-Source Technologist}
+\extrainfo{%
+\linkedin~\httplink{www.linkedin.com/in/joiito}\\%
+\octocat~\httplink{www.github.com/Joi}\\%
+Driving License} % optional, remove the line if not wanted
+
+\myquote{Thinking for yourself and question authority}{Timothy Leary}
+
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\setmainfont{Minion Pro}
+\setsansfont{Myriad Pro}
+
+\hyphenpenalty=10000
+\maketitle
+
+%\section{Skills}
+%
+%\subsection{Expert Skills}
+%\cvcomputer{Configuration Management}{Puppet\contributor, MCollective\contributor, Augeas\developer}
+%           {Debian OSes}{Debian\contributor, Ubuntu\developer}
+%
+%\subsection{Development}
+%\cvcomputer{Languages}{C, Perl, Python, Shell/Bash, Ruby, GNU Make, Ada, Lua}
+%           {Web}{HTML/XHTML, CSS, JavaScript, Ajax, Jquery, PHP, Semantic Web}
+%\cvcomputer{Frameworks}{Django, Google AppEngine, Google Wave, Netvibes}
+%           {Databases}{MySQL, PostgreSQL, NoSQL (GQL), SPARQL}
+%\cvcomputer{Formats}{XML/XPath, SGML, YAML/JSON, RDF/RSS/FOAF}
+%           {Methods}{Object Oriented Programming, MVC, Unit Tests, UML}
+%\cvcomputer{Source Management}{RCS/CVS, SVN, Bazaar, Git, Mercurial}
+%           {Tools}{Autotools, Cmake, Trac,
+%                   Gforge, Launchpad, GitHub}
+%
+%\subsection{Systems and Networks Administration}
+%\cvcomputer{Web}{Apache, Lighttpd, Nginx, Varnish, Bind, Squid, Dansguardian, VsFTPd}
+%           {Monitoring}{BB4/Hobbit, Nagios, Munin, Cacti, Graphite, Logstash}
+%\cvcomputer{Mail}{Postfix, Exim, SSMTP}
+%           {Backup}{Amanda, BackupManager}
+%\cvcomputer{Installation / Deployment}{FAI, Kickstart, Reprepro, Cfengine,
+%                                         Puppet\contributor, MCollective\contributor, Augeas\developer}
+%           {Networks}{DHCPd, VLANs, OpenVPN, Keepalived}
+%\cvcomputer{Operating Systems}{GNU/Linux (Debian\contributor, Ubuntu\developer, RedHat),
+%                               MacOS X, Windows, *BSD}
+%           {Databases}{MySQL, PostgreSQL, SQLite, BerkeleyDB, CouchDB}
+%\cvcomputer{Virtualization}{Xen, VMWare, OpenVZ, LXC, Openstack, Amazon Web Services}
+%           {Security}{SSL, PGP/GnuPG, OpenSSH}
+%
+%\subsection{Office and tools}
+%\cvcomputer{Office}{OpenOffice/LibreOffice, Microsoft Office, Gimp,
+%                    Inkscape}
+%           {Project Management}{TaskJuggler, GanttProject}
+%\cvcomputer{Edition}{\TeX{}, \LaTeX{}, \XeTeX{}, \LuaTeX{}}
+%           {Wikis}{MediaWiki, MoinMoin}
+%
+%\devnotes{Developer}{Contributor}
+
+\section{Work Experience}
+
+% Center labels and use "Since"
+%\tltextstart[base]{\scriptsize}
+%\tltextend[base]{\scriptsize}
+%\tlsince{Since~}
+
+\tlcventry{2003}{0}{Board Member, CEO, Chairman, Advisory Council}{\href{http://www.creativecommons.org}{Creative Commons}}{Mountain View}{CA}%
+  {US non-profit developing and supporting licenses to promote content sharing
+\begin{tightitemize}
+  \item Chairman of the Board (2006 - 2008, 2010 - 2012)
+  \item Board Member (2003 - 2013)
+  \item CEO (2008 - 2011)
+  \item Advisory Council (2013 - Present)
+\end{tightitemize}}
+
+\tlcventry{1995}{0}{Co-founder, CEO, Board Member}{\href{http://www.garage.co.jp}{Digital Garage}}{Tokyo}{Japan}%
+{Publicly traded Japanese Internet company
+\begin{tightitemize}
+ \item Board Member (2006 - Present)
+ \item Board Member \& CEO (1995 - 1999)
+ \item Co-Founder
+\end{tightitemize}}
+
+\tlcventry{2004}{2010}{Board Member, General Manager}{\href{http://technorati.com}{Technorati}}{San Francisco}{CA}{Search engine and index of blogs
+\begin{tightitemize}%
+ \item Board Member (2006 - 2010)
+ \item General Manager of Global Operations (2004 - 2006)
+\end{tightitemize}}
+
+\tlcventry{1996}{2003}{Headmaster}{Bithaus}{Tokyo}{Japan}{Multimedia trade school}
+
+\tlcventry{1994}{1997}{Founder, CEO}{Eccosys, Ltd.}{Tokyo}{Japan}{One of the first web companies in Japan}
+
+\tlcventry{1995}{1996}{CEO}{PSINet Japan Inc.}{Tokyo}{Japan}{The first commercial Internet service provider in Japan}
+
+\tlcventry{1989}{1991}{Associate to Executive Producer}{Indian Runner}{Hollywood}{CA}{A Hollywood film directed by Sean Penn}
+
+%\subsection{Other Experience}
+%
+%\tlcventry{2009}{0}{Translator and Editor}{La Colombe Calvary}{Nice}{}{%
+%\begin{tightitemize}%
+% \item Translation of English theology books into French;
+% \item Edition of books using \LaTeX{}, \XeTeX{} and \LuaTeX{};
+% \item Publishing of books using on-demand publishing services (CreateSpace and Lulu).
+%\end{tightitemize}}
+
+% Restore normal labels
+%\tltext{\scriptsize}
+
+%\tldatelabelcventry{2004}{July 2004}{Blue Collar Internship}{\href{http://www.snecma.com}{SNECMA}}{Moissy-Cramayel}{}{Assembled and equilibrated turbo reactors for planes}
+
+%\tldatelabelcventry{2002}{Summer 2002}{Fire Safety Officer}{\href{http://www.euroguard.fr/}{Euroguard}}{Marcoussis}{}{Supervised an Alcatel research site}
+
+%\tldatelabelcventry{2001}{Summer 2001}{Surveillance Agent}{Penauille Polys\'ecurit\'e}{Paris}{}{Supervised the headquarters of the French Red Cross}
+
+%\tllabelcventry{1999}{2000}{1999--2000}{Certified First Responder}{\href{http://www.croix-rouge.fr/}{French Red Cross}}{Paris Suburbs}{}{Served in several volunteer missions as a paramedic}
+
+\section{Education}
+
+\tlcventry{2004}{2007}{DBA Candidate}{Graduate School of International Corporate Strategy, Hitotsubashi University}{Tokyo}{Japan}{Incomplete}
+\tlcventry{1986}{1987}{Undergraduate}{University of Chicago}{Chicago}{IL}{Dean's List (1986 - 1987), Incomplete}
+\tlcventry{1984}{1985}{Undergraduate}{Tufts University}{Medford}{MA}{Incomplete}
+\tlcventry{1982}{1984}{High School}{The American School in Japan}{Tokyo}{Japan}{}
+
+\section{Honors and Awards}
+
+\tldatecventry{2013}{Doctor of Literature, honoris causa}{The New School}{New York}{NY}{}
+\tldatecventry{2011}{Lifetime Achievement Award}{University of Oxford Internet Institute}{Oxford}{UK}{In recognition for role as one of the world?s leading advocates of Internet freedom}
+\tldatecventry{2008}{"One of the 25 Most Influential People on the Web"}{BusinessWeek}{}{US}{}
+\tldatecventry{2007}{"The Next Establishment"}{Vanity Fair}{}{US}{}
+\tldatecventry{2005}{"Leaders of The Pack"}{Newsweek}{}{US}{}
+\tldatecventry{2004}{"Web-person contributor award"}{National Advertising Bureau}{Tokyo}{Japan}{}
+\tldatecventry{2001}{Global Leaders for Tomorrow}{The World Economic Forum}{Davos}{Switzerland}{}
+\tldatecventry{2000}{Commendment}{Ministry of Posts and Telecommunications}{}{Japan}{For supporting the advancement of IT}
+\tldatecventry{2000}{"50 Stars of Asia"}{Businessweek}{}{US}{}
+\tldatecventry{1997}{"CyberElite"}{Time Magazine}{}{US}{}
+
+\section{Academic Appointments}
+
+\tlcventry{2010}{0}{Affiliate}{Berkman Center for Internet \& Society, Harvard University}{Cambridge}{MA}{}
+\tlcventry{2008}{2011}{Part-Time Lecturer}{Keio Graduate School of Media Design}{Tokyo}{Japan}{}
+\tlcventry{2006}{2007}{Fellow}{The Annenberg Center for Communication of the University of Southern California }{Los Angeles}{CA}{}
+
+\section{Non-Profit Board Positions}
+
+\tlcventry{2011}{0}{Advisory Board}{University of Oxford Internet Institute}{Oxford}{UK}{}
+\tlcventry{2011}{0}{Advisory Board}{IDEO.org}{}{Japan}{Non-profit associated with IDEO, a design firm}
+\tlcventry{2009}{2013}{Board Member}{Startl}{}{CA}{Learning technology startup incubator}
+\tlcventry{2005}{0}{Board Member}{The Mozilla Foundation}{}{CA}{Non-profit organization and owners and developers of the Firefox browser}
+\tlcventry{2006}{0}{Board Member, Advisory Committee Member}{WITNESS}{Brooklyn}{NY}{Human rights organization empowering human rights defenders with media technology %
+\begin{tightitemize}
+ \item Board Member (2006 - 2014)
+ \item Advisory Committee Member (2013 - Present)
+\end{tightitemize}}
+\tlcventry{2009}{2011}{Board Member}{Public Knowledge}{Washington D.C.}{}{US non-profit focusing on Internet and telecommunications policies in Washington D.C.}
+\tlcventry{2008}{0}{Board Member, Advisory Board}{Electronic Privacy Information Center}{Washington D.C.}{}{US-based privacy policy non-profit %
+\begin{tightitemize}
+ \item Board Member (2013 - Present)
+ \item Advisory Committee Member (2009 - Present)
+\end{tightitemize}}
+\tlcventry{2005}{2008}{Board Member}{Computer Scientists for Social Responsibility}{}{US}{}
+\tlcventry{2002}{2008}{Board Member}{ZeroOne - The Art and Technology Network}{San Jose}{US}{US non-profit supporting media art}
+\tlcventry{2004}{2007}{Board Member}{Internet Corporation For Assigned Names and Numbers - ICANN}{Marina del Ray}{CA}{Non-profit organization that manages domain names and the numerical address system for the Internet %
+\begin{tightitemize}
+ \item Board Member (2004 - 2007)
+ \item Audit Committee (2005 - 2007)
+ \item Finance Committee (2005 - 2007)
+\end{tightitemize}}
+\tlcventry{2005}{0}{Board Member}{Open Source Initiative}{}{USA}{Non-profit organization which reviews and certifies software licenses as "Open Source" %
+\begin{tightitemize}
+ \item Board Member (2005 - 2007)
+ \item Board Member Emeritus (2007 - Present)
+\end{tightitemize}}
+\tlcventry{1999}{2003}{Member}{Keizai Doyukai - Association of Corporate Executives }{Tokyo}{Japan}{Association of corporate executives in Japan leading discussions on policy. Executives counterpart to Keidanren, the association of corporations %
+\begin{tightitemize}
+ \item Secretariat Member (2005 - 2007)
+ \item Board Member Emeritus (2007 - Present)
+\end{tightitemize}}
+
+\section{Foreign Languages}
+\cvlanguage{French}{Native}{Mother Tongue}
+\cvlanguage{English}{Fluent}{Daily practice, conferences given in English}
+\cvlanguage{Spanish}{Good Level}{Occasional practice}
+\cvlanguage{German}{Good Level}{Studied 9 years in school}
+%\cvlanguage{Russian}{Intermediary Level}{Studied 3 years in school}
+%\cvlanguage{Dutch}{Beginner}{Studied alone}
+%\cvlanguage{Swedish}{Beginner}{Studied alone}
+
+\section{Personal interests}
+
+\cvhobby{Music}{Clarinet, piano, organ, saxophone}
+\cvhobby{Sports}{Hiking, sailing, golf, climbing}
+\cvhobby{Contributions}{Wikipedia, OpenStreetMap}
+\cvhobby{Memberships}{President of the cultural association `la Colombe de Savoie'}
+\cvhobby{}{Ubuntu member}
+\cvhobby{Others}{Travels, reading}
+
+%\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+

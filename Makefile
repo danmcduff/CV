@@ -17,8 +17,8 @@ gh-pages: html
 	git push
 	git checkout master
 
-frenchcv: RaphaelPinson_fr.pdf
-englishcv: RaphaelPinson_en.pdf
+% frenchcv: RaphaelPinson_fr.pdf
+englishcv: JoiIto.pdf
 
 %.pdf: %.tex
 	#lualatex -interaction=batchmode $<
