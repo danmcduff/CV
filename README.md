@@ -1,3 +1,5 @@
+# This is Joi Ito's fork of Ralph Pinson's LaTeX CV
+
 # What is this
 
 This is a repository that contains my up-to-date CV in LaTeX.
