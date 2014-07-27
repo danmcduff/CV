@@ -11,7 +11,7 @@
 \documentclass[11pt,a4paper,nolmodern]{moderncv}
 
 \usepackage{JoiIto}
-
+% \usepackage{natbib}
 \usepackage[english]{babel}
 \linespread{0.9}
 % for some reason, lines take up a lot of space in itemize in English...
@@ -150,6 +150,10 @@
 
 \section{Honors and Awards}
 
+\tldatecventry{2014}{Hall of Fame}{SXSW Interactive}{Austin}{TX}{}
+\tldatecventry{2013}{20th Anniversary Contribution Award}{Interop Tokyo}{Tokyo}{Japan}{}
+\tldatecventry{2013}{50 on Fire}{Bostinno}{Boston}{MA}{}
+\tldatecventry{2013}{Distinguished Leadership Award}{Japan Society of Boston}{Boston}{MA}{}
 \tldatecventry{2013}{Doctor of Literature, honoris causa}{The New School}{New York}{NY}{}
 \tldatecventry{2011}{Lifetime Achievement Award}{University of Oxford Internet Institute}{Oxford}{UK}{In recognition for role as one of the world?s leading advocates of Internet freedom}
 \tldatecventry{2008}{"One of the 25 Most Influential People on the Web"}{BusinessWeek}{}{US}{}
@@ -245,6 +249,12 @@
 
 \section{Books}
 
+\bibliographystyle{plain}   % this means that the order of references
+			    % is determined by the order in which the
+			    % \cite and \nocite commands appear
+\bibliography{joibib}  % list here all the bibliographies that
+			     % you need.
+\cite{book*}
 
 
 %\section{Foreign Languages}

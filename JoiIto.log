@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2014.5.25)  25 JUL 2014 15:19
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2014.5.25)  27 JUL 2014 14:11
  restricted \write18 enabled.
  file:line:error style messages enabled.
 **JoiIto.tex
@@ -789,7 +789,7 @@ luaotfload:  then use the possibly updated libraries. The merged
 luaotfload:  version is not supported as it is a frozen instance.
 luaotfload:  Problems can be reported to the ConTeXt mailing list."
 luaotfload: pop namespace from font loader -- non-destructive
-luaotfload: fontloader loaded in 0.037 seconds
+luaotfload: fontloader loaded in 0.021 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1076,8 +1076,8 @@ luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 Users/jito/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/myriadp
 ro-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 25 (MyriadPro-Regular) defines feature cpsp for script latn
-luaotfload: font no 25 (MyriadPro-Regular) defines feature cpsp for script latn
+luaotfload: font no 25 (MyriadPro-Regular) defines feature liga for script latn
+luaotfload: font no 25 (MyriadPro-Regular) defines feature liga for script latn
 \g_fontspec_family_Myriad Pro_int=\count348
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload: font no 25 (MyriadPro-Regular) does not define feature smcp for scri
@@ -1429,8 +1429,8 @@ luaotfload | load : auto-selecting default features for script: dflt(load luc: /
 Users/jito/Library/texlive/2014/texmf-var/luatex-cache/generic/fonts/otf/minionp
 ro-regular.luc)
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 30 (MinionPro-Regular) defines feature cpsp for script latn
-luaotfload: font no 30 (MinionPro-Regular) defines feature cpsp for script latn
+luaotfload: font no 30 (MinionPro-Regular) defines feature liga for script latn
+luaotfload: font no 30 (MinionPro-Regular) defines feature liga for script latn
 \g_fontspec_family_Minion Pro_int=\count368
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload: font no 30 (MinionPro-Regular) defines feature smcp for script latn 
@@ -1504,8 +1504,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 luaotfload | load : auto-selecting default features for script: dflt
 luaotfload | load : auto-selecting default features for script: dflt
-luaotfload: font no 35 (MyriadPro-Regular) defines feature cpsp for script latn
-luaotfload: font no 35 (MyriadPro-Regular) defines feature cpsp for script latn
+luaotfload: font no 35 (MyriadPro-Regular) defines feature liga for script latn
+luaotfload: font no 35 (MyriadPro-Regular) defines feature liga for script latn
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1773,7 +1773,7 @@ Package microtype Info: Character `ÿtextgreater ' is missing
 (microtype)             in font `EU2/Octicons(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
 \makecvtitlepicturebox=\box286
-<identity.jpg, id=11, 2813.51125pt x 4228.79875pt>
+<identity.jpg, id=43, 2813.51125pt x 4228.79875pt>
 File: identity.jpg Graphic file (type jpg)
  <use identity.jpg>
 Package pdftex.def Info: identity.jpg used on input line 45.
@@ -1834,12 +1834,20 @@ luaotfload | load : auto-selecting default features for script: latn
 luaotfload | load : no defaults for script "latn", falling back to "dflt" [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./identit
-y.jpg>] [2] [3] [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
+y.jpg>] [2] [3] (./JoiIto.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+
+LaTeX Warning: Citation `book*' on page 4 undefined on input line 257.
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  (./JoiIto.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 
 
 Package rerunfilecheck Warning: File `JoiIto.out' has changed.
@@ -1847,23 +1855,26 @@ Package rerunfilecheck Warning: File `JoiIto.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `JoiIto.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  04804E12B6725FEDB4067B1A75BA66EF;1039.
+(rerunfilecheck)             Before: 8CF0E6D26CD6152D8FCAEDFF36F85600;1107
+(rerunfilecheck)             After:  DF48544ED970905803B64AA8437F3825;1200.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 34536 strings out of 494695
+ 34555 strings out of 494695
  100000,794899 words of node,token memory allocated
- 4161 words of node memory still in use:
+ 4162 words of node memory still in use:
    46 hlist, 5 vlist, 15 rule, 3 disc, 2 math, 83 glue, 73 kern, 7 penalty, 145 
 glyph, 443 attribute, 78 glue_spec, 243 attribute_list, 4 action, 2 write, 33 pd
 f_literal, 1 pdf_refximage, 4 pdf_start_link, 4 pdf_end_link, 10 pdf_colorstack,
  2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:1,2:13100,3:1401,4:2230,5:1208,6:2589,7:83,8:13,9:787,10:260
- 37028 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:13339,3:1442,4:2265,5:1251,6:2673,7:89,8:13,9:820,10:237
+ 37038 multiletter control sequences out of 65536+600000
  74 fonts using 9100591 bytes
  76i,15n,60p,771b,784s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</Library/F
@@ -1872,10 +1883,10 @@ onts/MinionPro-Bold.otf></Users/jito/Library/Fonts/octicons-regular-webfont.ttf>
 nts/MinionPro-Regular.otf><</usr/local/texlive/2014/texmf-dist/fonts/type1/publi
 c/lm/lmsy10.pfb><</usr/local/texlive/2014/texmf-dist/fonts/type1/public/marvosym
 /marvosym.pfb>
-Output written on JoiIto.pdf (4 pages, 7324638 bytes).
+Output written on JoiIto.pdf (4 pages, 7326646 bytes).
 
-PDF statistics: 90 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 131072)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 117 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 131072)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
