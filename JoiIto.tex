@@ -247,14 +247,10 @@
 \end{tightitemize}}
 \tldatecventry{1995}{Jury Member}{Interactive Media Festival}{}{US}{}
 
-\section{Books}
-
-\bibliographystyle{plain}   % this means that the order of references
-			    % is determined by the order in which the
-			    % \cite and \nocite commands appear
-\bibliography{joibib}  % list here all the bibliographies that
-			     % you need.
-\cite{book*}
+\renewcommand\refname{Books}
+\nocite{book:1, book:2, book:3, book:4}
+\bibliographystyle{plain} 
+\bibliography{joibib}  
 
 
 %\section{Foreign Languages}
